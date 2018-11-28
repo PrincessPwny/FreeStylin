@@ -7,11 +7,17 @@ The TL:DR is that Light/Web novel websites suck. Huge whitespace, tiny fonts, mi
 The general gist of what im going for is as follows:
 
 1: Remove anything not to do directly with the text of the Light/Webnovel, comments and navigation to the next chapter.
+
 2: If a direct next-chapter button is avalible, remove any "next post" navigation. 
+
 3: If the website enjoys changing styles around too much from chapter to chapter, remove it's ability to do so. Especially if it changes font size, weight, bolding and familly frequently. Simply targeting the entire shitty webpage is fine. 
+
 4: Remove minimum widths whereever possible and expand the text area to fill almost the whole page using % based widths. I tend to create a few percent buffer around the left/right side of the page with a few % margin. Text too close to the edge of the screen can be difficult to read, but only allowing text right in the center also is bad as far as im concerned. As for minimum widths, zooming the page changes the effective resolution. For pages with small text and large minimum widths, zooming the page can create a scenario where you have to scroll left to right to read each line.
+
 5:As at this point most of the page scales with zooming well, but inline images do not, so use vh and vw to scale the images to fit the viewport. Advice on the best size to pick would be good, for now I'll set it to 60% at most. 
+
 6:I like aligning the images and heading text to the center of the page. Sometimes I am unsure how to do this without messing up the text on the page though.
+
 7:There is several web/light novel websites that like adding random images in the middle of the chapter, to "Show" the user what the translator thinks the web novel is trying to show us. Others add embeds to youtube videos. I don't mind linking songs, but embeding things into the story space should really only be done to link actual sauce material. No random images of a town built in minecraft, I have an imagination and it works just fine thanks. No song at the start that gives away plot either. 
 
 
